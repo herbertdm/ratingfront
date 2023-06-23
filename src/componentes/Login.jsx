@@ -5,6 +5,7 @@ export function Login(){
         <div className="fondo">
             <div className="login">
                 <h2>Iniciar Sesión</h2>
+                {/*
                 <form>
                     <input type="username" placeholder="Login"></input>
                     <input type="password" placeholder="Password"></input><br />
@@ -12,6 +13,7 @@ export function Login(){
                     <label className="cambio-color"><a>¿Olvidaste tu contraseña?</a></label><br />
                     <button type="submit">Login</button>
                 </form>
+                */}
             </div>
         </div>
     );
