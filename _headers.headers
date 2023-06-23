@@ -1,2 +1,0 @@
-/api/*:
-  Access-Control-Allow-Origin: "https://djangoback-4yk2.onrender.com"
