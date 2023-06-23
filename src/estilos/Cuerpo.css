@@ -1,0 +1,35 @@
+.cuerpo{
+    height: 500px;
+    background-color: #E0E8EC;
+}
+article{
+    position: relative;
+    width: 40vw;
+    float: left;
+}
+article p{
+    position: relative;
+    top: 70px;
+    left: 80px;
+    text-align: justify;
+    line-height: 46px;/*1.5vw;*/
+    font-size: 22px;
+    color: #00697B;
+    width: 85%;
+}
+aside{
+    position: relative;
+    width: 50vw;
+    height: 380px;
+    float: right;
+}
+.grafica{
+    position: relative;
+    top: 60px;
+    width: 90%;
+    height: 100%;
+    background: #fff url(../imagenes/Rating.png) no-repeat;
+    background-position: 20px;
+    background-size: 95%;
+    border-radius: 20px;
+}

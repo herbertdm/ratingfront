@@ -1,0 +1,12 @@
+.iconos{
+    margin: 2vw;
+    color: #229954;
+    font-size: 2.5vw;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.iconos:hover{
+    color: #fff;
+    transform: translateY(-30%);
+    transition-duration: 0.5s;
+}

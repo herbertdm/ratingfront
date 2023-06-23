@@ -1,0 +1,62 @@
+.fondo{
+    width: 100vw;
+    height: 700px;
+    background: url(../imagenes/vecto.svg) no-repeat bottom;
+    background-color: #22323D;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /*text-align: center;*/
+}
+.login{
+    position: relative;
+    top: 100px;
+    width: 45vw;
+    height: 390px;
+    /*box-shadow: 0 10px 25px rgba(92,99,105, .2);*/
+    justify-content: center;
+    align-items: center;
+}
+.login h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.login input{
+    width: 380px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: rgba(0, 105, 123, 0.2);
+    padding-left: 20px;
+    margin: 25px 0;
+    border: none;
+    color: rgba(255, 255, 255, 0.4);
+}
+.login label{
+    font-size: 16px;
+    margin: 0 40px;
+    color: rgba(255, 255, 255, 0.4);
+}
+.login label input{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-color: #22323D;
+}
+.login button{
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #229954;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.login button:hover{
+    box-shadow: 0 15px 30px rgba(79, 141, 105, 0.2);
+    transform: translateY(-6px);
+    transition-duration: 0.5s;
+}

@@ -1,0 +1,29 @@
+footer{
+    width: 100vw;
+    height: 300px;
+    background: url(../imagenes/vecto.svg) no-repeat bottom;
+    background-color: #22323D;
+}
+.contacto, .redes-sociales{
+    top: 50px;
+    left: 80px;
+    width: 40vw;
+    float: left;
+    margin-left: 6vw;
+}
+p{
+    font-size: 16px;
+    line-height: 38px;
+}
+p, h3{
+    color: #FFFFFF;
+}
+h3{
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 16px;
+}
+p{
+    font-size: 16px;
+    line-height: 38px;
+}
