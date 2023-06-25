@@ -13,7 +13,7 @@ export function Menu(){
                     <li><Link className='menu-comp' to="https://iea.umsa.bo/index.php/contacto/" target='_blank'>Contáctanos</Link></li>
                 </ul>
             </div>
-            <div className="registro"><Link to="/Ingresar">Ingresar</Link></div>
+            {/* <div className="registro"><Link to="/Ingresar">Ingresar</Link></div> */}
         </div>
     );
 }
