@@ -19,7 +19,7 @@
     float: left;
 }
 .menu-nav ul li{
-    margin: 24px 0;        /*calc(11vh/2) 0px;*/
+    margin: 38px 0;        /*calc(11vh/2) 0px;*/
     display: inline-block;
 }
 .menu-comp{
