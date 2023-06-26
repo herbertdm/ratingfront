@@ -102,12 +102,12 @@ export function Lista() {
     <div className="lista">
       <h2>Lista de los canales mas vistos</h2>
       <div className="tabla-container">
-        <h3>Los 3 canales más vistos por frecuencia:</h3>
+        <h3>Los 3 canales más vistos por número de vistas:</h3>
         <table className="tabla">
           <thead>
             <tr>
               <th>Canal</th>
-              <th>Frecuencia</th>
+              <th>Número de Vistas</th>
             </tr>
           </thead>
           <tbody>
