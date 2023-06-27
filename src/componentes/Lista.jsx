@@ -24,8 +24,8 @@ export function Lista() {
         (a, b) => frecuenciaPorCanal[b] - frecuenciaPorCanal[a]
       );
 
-      // Obtener los 3 canales más vistos
-      const canalesTop3 = canalesOrdenados.slice(0, 3);
+      // Obtener los 10 canales más vistos
+      const canalesTop3 = canalesOrdenados.slice(0, 10);
 
       // Obtener información adicional de la frecuencia de visualización para los canales top 3
       const canalesConInformacion = canalesTop3.map((canal) => {
@@ -54,8 +54,8 @@ export function Lista() {
         (a, b) => duracionPorCanal[b] - duracionPorCanal[a]
       );
 
-      // Obtener los 3 canales con más horas de visualización
-      const canalesTop3 = canalesOrdenados.slice(0, 3);
+      // Obtener los 10 canales con más horas de visualización
+      const canalesTop3 = canalesOrdenados.slice(0, 10);
 
       // Obtener información adicional de fecha y duración total para los canales top 3
       const canalesConInformacion = canalesTop3.map((canal) => {
@@ -102,7 +102,7 @@ export function Lista() {
     <div className="lista">
       <h2>Lista de los canales mas vistos</h2>
       <div className="tabla-container">
-        <h3>Los 3 canales más vistos por número de vistas:</h3>
+        <h3>Los 10 canales más vistos por número de vistas:</h3>
         <table className="tabla">
           <thead>
             <tr>
@@ -121,7 +121,7 @@ export function Lista() {
         </table>
       </div>
       <div className="tabla-container">
-        <h3>Los 3 canales con más horas de visualización:</h3>
+        <h3>Los 10 canales con más horas de visualización:</h3>
         <table className="tabla">
           <thead>
             <tr>
